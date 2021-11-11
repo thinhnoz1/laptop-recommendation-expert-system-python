@@ -1,0 +1,58 @@
+[
+    {
+        "IF": "gaming",
+        "THEN": {
+            "ram": 8,
+            "hd_size": 512,
+            "screen_size": 15,
+            "clock_speed": 2,
+            "graphic_card_size": 2,
+            "os": ["windows"],
+            "processor_brand": "any",
+            "weight": 999999,
+            "graphic_card_brand" : ["amd", "nvidia"]
+        }
+    },
+    
+    {
+        "IF": "dev",
+        "THEN": {
+            "ram": 8,
+            "hd_size": 256,
+            "screen_size": 13,
+            "clock_speed": 2,
+            "graphic_card_size": 0,
+            "os": ["any"],
+            "processor_brand": "any",
+            "weight": 3
+        }
+    },
+
+    {
+        "IF": "clerk",
+        "THEN": {
+            "ram": 2,
+            "hd_size": 128,
+            "screen_size": 12,
+            "clock_speed": 0,
+            "graphic_card_size": 0,
+            "os": ["windows"],
+            "processor_brand": "intel",
+            "weight": 2.1
+        }
+    },
+
+    {
+        "IF": "home",
+        "THEN": {
+            "ram": 4,
+            "hd_size": 128,
+            "screen_size": 12,
+            "clock_speed": 0,
+            "graphic_card_size": 0,
+            "os": ["windows", "mac"],
+            "processor_brand": "any",
+            "weight": 3
+        }
+    }
+]
