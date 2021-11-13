@@ -47,3 +47,13 @@ def recommend(rules, facts, purpose, budget):
                 result.append(i)
         
     return result
+
+def choose_one_best_option (index_array, facts):
+    highest_price = 0
+    highest_idx =0
+    for idx in index_array:
+        if (facts[idx]["price"] > highest_price):
+            highest_price = facts[idx]["price"]
+            highest_idx = idx
+
+    return highest_idx

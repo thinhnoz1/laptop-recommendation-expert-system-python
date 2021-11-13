@@ -20,7 +20,7 @@
             "ram": 8,
             "hd_size": 256,
             "screen_size": 13,
-            "clock_speed": 2,
+            "clock_speed": 1.8,
             "graphic_card_size": 0,
             "os": ["any"],
             "processor_brand": "any",
